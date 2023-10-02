@@ -1,0 +1,60 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    background-color: #1c1e22;
+}
+
+.title {
+    font-size: 36px;
+    color: #ffe300;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    padding: 30px;
+    background-color: #c8c8c8;
+}
+
+.player-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-card {
+    height: 200px;
+    width: 300px
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.parameter-label {
+    margin: 0;
+    align-self: center;
+}
+
+.parameter-select {
+    width: 200px;
+    align-self: center;
+}
+
+.play-button {
+    width: 30px;
+    align-self: center;
+}
+
+.message {
+    margin-top: 5px;
+    align-self: center;
+}
