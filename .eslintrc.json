@@ -897,7 +897,8 @@
         },
         {
             "files": [
-                "*.spec.ts"
+                "*.spec.ts",
+                "*.spec.cy.ts"
             ],
             "rules": {
                 "max-len": "off",
